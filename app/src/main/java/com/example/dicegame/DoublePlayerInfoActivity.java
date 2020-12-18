@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.example.dicegame.databinding.ActivitySinglePlayerInfoBinding;
 
-public class SinglePlayerInfoActivity extends AppCompatActivity {
+public class DoublePlayerInfoActivity extends AppCompatActivity {
 
     private ActivitySinglePlayerInfoBinding b;
     private int winningPoint;
@@ -57,7 +57,7 @@ public class SinglePlayerInfoActivity extends AppCompatActivity {
     }
 
     private void startGameActivity() {
-        startActivity(new Intent(SinglePlayerInfoActivity.this,MainActivity.class)
+        startActivity(new Intent(DoublePlayerInfoActivity.this,MainActivity.class)
         .putExtra("Player1Name",player1Name)
         .putExtra("Player2Name",player2Name)
         .putExtra("WinningPoint",winningPoint));

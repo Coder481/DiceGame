@@ -9,7 +9,12 @@
         android:roundIcon="@drawable/dice_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.DiceGame">
-        <activity android:name=".SinglePlayerInfoActivity"
+
+        <activity android:name=".SinglePlayerGameActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".SelectGameModeActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+
+        <activity
+            android:name=".DoublePlayerInfoActivity"
             android:screenOrientation="portrait">
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
