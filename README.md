@@ -1,8 +1,9 @@
 # DiceGame
 ### Double Player Dice Game
+* Single player Dice game is [here](https://github.com/Coder481/DiceGame/tree/single_player_dice_game)
 ### Download [game apk](https://github.com/Coder481/DiceGame/releases/download/latest/app-debug.apk)
 
-### Some Views of the app
+### Some Views of the game
 |Get Player Info| Set Player Name and Winning Points | Game Start |
 |:----------------:|:----------------:|:----------------:|
 | <img src="https://github.com/Coder481/CDN/blob/main/dice_game1/players_info.jpg" width="250" height="500"/>| <img src="https://github.com/Coder481/CDN/blob/main/dice_game1/ply_name.jpg" width="250" height="500"/>| <img src="https://github.com/Coder481/CDN/blob/main/dice_game1/game_start.jpg" width="250" height="500"/>|
