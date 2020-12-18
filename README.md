@@ -1,5 +1,5 @@
 # DiceGame
-
+### Double Player Dice Game
 ### Download [game apk](https://github.com/Coder481/DiceGame/releases/download/latest/app-debug.apk)
 
 ### Some Views of the app
